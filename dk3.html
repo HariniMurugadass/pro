@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Soul</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+        <script>
+    
+    function openForm() {
+        document.getElementById("popupForm").style.display = "block";
+      }
+      function closeForm() {
+        document.getElementById("popupForm").style.display = "none";
+      }
+      function ok()
+      {
+        var a=document.getElementById("psw").value
+        
+        if(a=="dk14")
+        {
+            alert("welcome")
+            pw.disabled=false;
+
+        }
+        else
+        {
+            alert("incorrect password")
+        }
+      }
+      function okk()
+            {
+                var a=document.getElementById("pass").value
+                var b=document.getElementById("pass2").value
+
+                if(a==b)
+                {
+                    alert("welcome")
+                    sub.disabled=false
+
+                }
+                else
+                {
+                    alert("passwords aren't same")
+                }
+            }
+    
+    
+    </script>
+    <style>
+          * {
+        box-sizing: border-box;
+      }
+
+      .openButton {
+        
+        width:70px;
+        height: 30px;
+        background-color: #1281c6;
+        padding:0px;
+       
+       
+      }
+      .loginPopup {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .formPopup {
+        display: none;
+        position: fixed;
+        left: 65%;
+        top: 15%;
+        transform: translate(-50%, 5%);
+       
+        z-index: 9;
+      }
+      .formContainer {
+        max-width: 500px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius:30px;
+        box-shadow:5px 5px 3px rgb(68, 67, 67); 
+      }
+      .formContainer input[type=text],
+      .formContainer input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 20px 0;
+        border: none;
+        background: #eee;
+      }
+      .formContainer input[type=text]:focus,
+      .formContainer input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      .formContainer .btn {
+        padding: 12px 20px;
+        border: none;
+        background-color: #68a40d;
+        color: #fff;
+        cursor: pointer;
+       
+        margin-bottom: 15px;
+        
+      }
+      .formContainer .cancel {
+        background-color: #cc0000;
+      }
+      
+        p {
+            text-align: justify;
+            margin-right: 30px;
+        }
+
+        .abc {
+            background-image: url(https://bornrealist.com/wp-content/uploads/2017/10/image-of-a-sad-child-6360-1024x690.jpg);
+            height: 300px;
+            width: 400px;
+            background-size: cover;
+            float: left;
+        }
+
+        .abc:hover {
+
+            background-image: url(https://th.bing.com/th/id/R.6c1533c1e2fe9ab0e5adbeb8e66b9be9?rik=Ijmd2gH3MFv8QA&riu=http%3a%2f%2fabclearningcenterfl.com%2fwp-content%2fuploads%2f2015%2f04%2fHappy-Child.jpg&ehk=YYhBF5QV%2fwq2L5bt%2bIbNdzreSuR8PNj3UwrHpT22w1s%3d&risl=&pid=ImgRaw&r=0);
+            background-size: 100% 100%;
+        }
+        .box
+        {
+            border-radius: 50px;
+            box-shadow: 3px 3px 3px rgb(93, 91, 91);
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid-xs">
+
+        <nav class="navbar navbar-light " style="background: linear-gradient(to right,rgb(238, 138, 155),rgb(245, 147, 164)
+    );">
+
+            <a href="dk.html" class="navbar-brand"><img
+                    src="https://png.pngtree.com/png-clipart/20210702/ourlarge/pngtree-quotes-of-the-day-happy-soul-with-three-flowers-png-image_3537282.jpg"
+                    height="50px" width="50px"></a>
+
+
+
+            <button class="nav-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mylist">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="mylist">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a href="dk2.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="dk5.html" class="nav-link">Connect now</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="dk4.html" class="nav-link">Therapy</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="dk5.html" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            choose your age group
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="dk6.html" class="dropdown-item">Children(5-15)</a>
+                            <a href="dk7.html" class="dropdown-item">adult(16-60)</a>
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dk3.html" class="nav-link">Sign in</a>
+                    </li>
+                    
+                </ul>
+
+
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid-xs mt-1 mb-5" style="background-image:url(https://wallpapertag.com/wallpaper/full/4/b/a/935175-large-pink-heart-backgrounds-1920x1200.jpg);background-size: 100% 120%;">
+        <div class="row">
+           
+            <div class="col-5">
+
+                <div class="card my-5 box">
+
+                    <div class="card-header">
+                        <h2 class="text-center">Happy Soul!Join us for mental growth</h2>
+                    </div>
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class=" col form-group">
+                                <label for="n1">Name</label>
+                                <input type="text" name="nam" id="n1" class="form-control" placeholder="Enter full name"  required>
+                            </div>
+                            <div class="col form-group">
+                                <label for="a1">Age</label>
+                                <input type="number" name="age" id="a1" class="form-control" placeholder="Enter your age"  required>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col form-group">
+
+                                <label for="g1">Gender</label>
+                                <select name="gen" id="g1" class="form-control">
+                                    <option value="female">Female</option>
+                                    <option value="male">Male</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class=" col form-group">
+                                <label for="d1">Date of birth</label>
+                                <input type="date" name="dob" id="d1" class="form-control" placeholder="Enter your dob"  required>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class=" col form-group">
+                                <label for="e1">Email-id</label>
+                                <input type="email" name="email" id="e1" class="form-control" placeholder="Enter valid mail id"  required>
+                            </div>
+                            <div class="col form-group">
+                                <label for="p1">Phone-number</label>
+                                <input type="tel" name="phone" id="p1" class="form-control" placeholder="Enter valid phone number"  required>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class=" col form-group">
+                                <label for="pass">New Password</label>
+                                <input type="password" name="pass1" id="pass" class="form-control" placeholder="Enter minimum 6 characters"  required>
+                            </div>
+                            <div class="col form-group">
+                                <label for="pass2">Confirm Password</label>
+                                <input type="password" name="pw" id="pass2" class="form-control" placeholder="confirm the password" required>
+
+                            </div>
+
+                        </div>
+                        <div class="form-group form-check form-check-inline">
+                            <input type="checkbox" name="terms" id="cb" form="form-check-input">
+                            <label for="cb" class="form-check-label ml-3">I am not in crisis, homicidal, suicidal or
+                                abusing anyone, and I agree to the 7 Cups Terms of Service & Privacy Policy</label>
+                        </div>
+                    </div>
+                    <div class="row mx-auto mb-3">
+                        <button type="button" class="bg-primary mr-2" onclick="okk()">Check</button>
+                        <a href="dk2.html"><input type="submit" class="bg-success" disabled id="sub"></a>
+                       
+                          <div class="loginPopup">
+                            <div class="formPopup" id="popupForm">
+                              <form action="/action_page.php" class="formContainer">
+                                <h2>Please Log in</h2>
+                                <label for="email">
+                                  <strong>E-mail</strong>
+                                </label>
+                                <input type="text" id="email" placeholder="Your Email" name="email" required>
+                                <label for="psw">
+                                  <strong>Password</strong>
+                                </label>
+                                <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+                                <button type="button" class="btn" onclick="ok()" id="pass" >Check</button>
+                                <a href="dk2.html"><button type="button" class="btn" id="pw" disabled >Log in</button></a>
+                                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                              </form>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        Do you have an account? 
+                            <button class="openButton" onclick="openForm()">Sign in</button>
+                          
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    </div>
